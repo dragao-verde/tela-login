@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <div class="login">
+            <h2>Login</h2>
+            <form action="process_login.php" method="POST">
+                <label for="username">Usuário:</label>
+                <input type="text" id="nome_usuario" name="nome_usuario" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Não tem uma conta? <a href="registro.html">Criar Conta</a></p>
+        </div>
+    </main>
+</body>
+</html>
